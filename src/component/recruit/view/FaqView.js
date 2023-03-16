@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Fab from '@mui/material/Fab';
-import Divider from '@mui/material/Divider';
+
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -24,7 +24,7 @@ function FaqView() {
       <Box sx={{ my: 3, mx: 2 }}>
         <Typography gutterBottom variant="h4" component="div">
           자주묻는질문
-        </Typography>
+        </Typography>        
         <Box sx={{ '& > :not(style)': { m: 1 } }}>
           <Fab variant="extended" size="medium" color="primary" aria-label="add">
             영입절차
